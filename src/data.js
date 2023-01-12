@@ -1,0 +1,98 @@
+import { v4 as uuidv4 } from 'uuid';
+
+function chillHop() {
+    return [
+        {
+            name: 'Come In And Stay',
+            cover :'https://chillhop.com/wp-content/uploads/2022/09/1a58532ef45339e1bd1a3324635e3cf133f9940b-300x300.jpg',
+            artist: 'Dotlights',
+            audio : 'https://mp3.chillhop.com/serve.php/?mp3=45146',
+            color : ['#293076', '#95a4d1'],
+            id: uuidv4(), 
+            active: true,
+        },
+        {
+            name: 'Mantilla',
+            cover: 'https://i.scdn.co/image/ab67616d0000b2737d13bd78245db84e4fe8388b',
+            audio : 'https://mp3.chillhop.com/serve.php/?mp3=45147',
+            artist: 'Bao, Broken Transient',
+            color : ['#3d3c69', '#95a4d1'],
+            id: uuidv4(), 
+            active: false,
+        },
+        {
+            name: 'Satisfaction',
+            cover: 'https://i.scdn.co/image/ab67616d0000b273ec30ff6dcc05d2d989dd7806',
+            audio : 'https://mp3.chillhop.com/serve.php/?mp3=45150',
+            artist: 'Afroham',
+            color : ['#e99cd7', '#312e75'],
+            id: uuidv4(), 
+            active: false,
+        },
+        {
+            name: 'Pine away',
+            cover: 'https://i.scdn.co/image/ab67616d0000b273ce11a0a20c4bae737d0ac9e1',
+            audio : 'https://mp3.chillhop.com/serve.php/?mp3=45159',
+            artist: 'oddfish',
+            color : ['#799be2', '#2d5880'],
+            id: uuidv4(), 
+            active: false,
+        },
+        {
+            name: 'Long for',
+            cover: 'https://i.scdn.co/image/ab67616d0000b273e8729e662cafcf2beeb06b58',
+            audio : 'https://mp3.chillhop.com/serve.php/?mp3=45168',
+            artist: 'SwuM, takeo',
+            color : ['#ae7e6d', '#fefefe'],
+            id: uuidv4(), 
+            active: false,
+        },
+        {
+            name: 'Long for',
+            cover: 'https://i.scdn.co/image/ab67616d0000b273e8729e662cafcf2beeb06b58',
+            audio : 'https://mp3.chillhop.com/serve.php/?mp3=45168',
+            artist: 'SwuM, takeo',
+            color : ['#ae7e6d', '#fefefe'],
+            id: uuidv4(), 
+            active: false,
+        },
+        {
+            name: 'Long for',
+            cover: 'https://i.scdn.co/image/ab67616d0000b273e8729e662cafcf2beeb06b58',
+            audio : 'https://mp3.chillhop.com/serve.php/?mp3=45168',
+            artist: 'SwuM, takeo',
+            color : ['#ae7e6d', '#fefefe'],
+            id: uuidv4(), 
+            active: false,
+        },
+        {
+            name: 'Long for',
+            cover: 'https://i.scdn.co/image/ab67616d0000b273e8729e662cafcf2beeb06b58',
+            audio : 'https://mp3.chillhop.com/serve.php/?mp3=45168',
+            artist: 'SwuM, takeo',
+            color : ['#ae7e6d', '#fefefe'],
+            id: uuidv4(), 
+            active: false,
+        },
+        {
+            name: 'Long for',
+            cover: 'https://i.scdn.co/image/ab67616d0000b273e8729e662cafcf2beeb06b58',
+            audio : 'https://mp3.chillhop.com/serve.php/?mp3=45168',
+            artist: 'SwuM, takeo',
+            color : ['#ae7e6d', '#fefefe'],
+            id: uuidv4(), 
+            active: false,
+        },
+        {
+            name: 'Long for',
+            cover: 'https://i.scdn.co/image/ab67616d0000b273e8729e662cafcf2beeb06b58',
+            audio : 'https://mp3.chillhop.com/serve.php/?mp3=45168',
+            artist: 'SwuM, takeo',
+            color : ['#ae7e6d', '#fefefe'],
+            id: uuidv4(), 
+            active: false,
+        },
+    ]
+}
+
+export default chillHop

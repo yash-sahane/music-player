@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.App{
+    height: 100vh;
+    transition: all .3s ease;
+}
+
+.library-active{
+    margin-left: 30%;
+}
+
+h1,h2,h3{
+    color: rgb(70, 70, 70);
+}
+
+@import './song';
+@import './player';
+@import './library';
+@import './nav';
